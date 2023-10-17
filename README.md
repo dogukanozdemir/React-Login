@@ -5,7 +5,7 @@
 This is a React-based web application that provides a user-friendly login form. The primary purpose of this project is to allow users to enter their credentials (username and password), and based on the input, the app will either grant access on successful login or display an error message for incorrect login details.
 
 The project is testable and live at:
-![Live Demo](https://react-login-9sitjera8-dogukanozdemir.vercel.app/)
+[Live Demo](https://react-login-9sitjera8-dogukanozdemir.vercel.app/)
 
 ## Table of Contents
 
