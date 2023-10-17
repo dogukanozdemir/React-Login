@@ -1,0 +1,249 @@
+
+.app-container {
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  background-color: #2148C0;
+}
+
+
+.background {
+  min-height: 100vh;
+  position: relative;
+}
+
+.background-vector {
+  background-image: url('../public/png/sq.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: auto;
+}
+
+.background-ellipse {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom left;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.background-ellipse.big {
+  background-image: url('../public/png/image.png');
+  top: 50vh;
+  width: 50vh;
+}
+
+.background-ellipse.medium {
+  background-image: url('../public/png/dark.png');
+  top: 40vh;
+  width: 40vh;
+}
+
+.background-ellipse.small {
+  background-image: url('../public/png/image.png');
+  top: 30vh;
+  width: 30vh;
+}
+
+/* Content styles */
+.content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 71px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  background-image: url('../public/png/cart.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: auto;
+  height: 98px;
+  width: 120px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 43px;
+}
+
+.text-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btn-rectangle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 45px;
+  background: #FFFFFF;
+  gap: 43px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: underline;
+  color: blue;
+}
+
+.button {
+  position: absolute;
+  width: 54px;
+  height: 20px;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2148C0;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.forgot-password {
+  display: flex;
+  flex-direction: column;
+}
+
+.forgot-password-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  padding-left: 6vh;
+  padding-right: 6vh;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.modal h2 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.modal p {
+  font-size: 16px;
+  color: #666;
+}
+
+.modal button {
+  background: #2148C0;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal button:hover {
+  background: #123489;
+}
+
+
+@media (max-width: 425px) {
+  .background-ellipse.big {
+    top: 35vh;
+    width: 35vh;
+  }
+
+  .background-ellipse.medium {
+    top: 28vh;
+    width: 28vh;
+  }
+
+  .background-ellipse.small {
+    top: 21vh;
+    width: 21vh;
+  }
+}
+
+@media (max-width: 375px) {
+  .background-ellipse.big {
+    top: 28vh;
+    width: 28vh;
+  }
+
+  .background-ellipse.medium {
+    top: 21vh;
+    width: 21vh;
+  }
+
+  .background-ellipse.small {
+    top: 14vh;
+    width: 14vh;
+  }
+}
+
+@media (max-width: 320px) {
+  .background-ellipse.big {
+    top: 23vh;
+    width: 23vh;
+  }
+
+  .background-ellipse.medium {
+    top: 15vh;
+    width: 15vh;
+  }
+
+  .background-ellipse.small {
+    top: 8vh;
+    width: 8vh;
+  }
+}
