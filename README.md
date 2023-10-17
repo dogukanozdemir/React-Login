@@ -1,5 +1,7 @@
 # React Login Form App
 
+![Login Page](https://imgur.com/CEtT3ip)
+
 This is a React-based web application that provides a user-friendly login form. The primary purpose of this project is to allow users to enter their credentials (username and password), and based on the input, the app will either grant access on successful login or display an error message for incorrect login details.
 
 ## Table of Contents
