@@ -7,8 +7,6 @@ This is a React-based web application that provides a user-friendly login form. 
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
 - [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Getting Started
 
